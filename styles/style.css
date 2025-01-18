@@ -242,11 +242,7 @@ margin-right: 30px ;
     grid-template-columns: repeat(5, 5fr);
 }
 
-.sponsor-company img {
-    filter: grayscale(100%);
-    transition: filter 0.3s ease;
 
-}
 
 footer {
     background-color: #FFF4E7; 
