@@ -116,8 +116,7 @@ margin-right: 30px ;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
-    margin-top: ;
-
+   
 
 }
 
@@ -142,6 +141,63 @@ margin-right: 30px ;
     color: #FF900E;
 }
 
+/* features card and designer */
+
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+
+}
+
+.feature-card {
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 40px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+
+.feature-card .feature-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+ 
+
+
+} 
+
+.features{
+    gap: 140px;
+
+}
+
+#exp-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+
+}
+
+#exp-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.primary-bt{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    
+}
+
+
+
+
+/* facts */
 .fact{
     border: 1px solid #FF900E;
     width: 240px;
@@ -191,11 +247,38 @@ margin-right: 30px ;
     transition: filter 0.3s ease;
 
 }
+
+footer {
+    background-color: #FFF4E7; 
+    margin: 130px auto 210px auto; /* Centers footer horizontally and maintains top/bottom margins */
+    max-width: 1440px; /* Restricts width */
+    padding: 0; /* Resets any default padding */
+   border-radius: 8px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Fixed height for the footer */
+}
+
+.f-para {
+    color: #333; 
+    font-size: 14px; 
+    margin: 0; 
+}
+
+
+
+
+
 /* Responsive Media Query */
 
 @media screen and (max-width: 576px) {
     .navbar, 
-    .navlinks, 
+    .nav-links, 
     .teams,
     .facts-container {
         flex-direction: column;
@@ -225,7 +308,7 @@ margin-right: 30px ;
         margin-left: 50px;
      }
 
-     .sponsor-company, .{
+     .sponsor-company{
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
         justify-items: center;
